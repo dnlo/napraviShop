@@ -1,0 +1,16 @@
+#!/bin/mksh
+
+cd css
+cat reset.css type.css colors.css layout.css hacks.css custom.css queries.css > full.css
+minify full.css -o full.min.css
+sed -e '$a<\/style>' full.min.css | sed -e '1 i<style>' > insertStyle.css 
+sed -r 's/.+href=\.\/css.+/insertStyle/' ../index.html > ../public/index.html
+lineNum=$(grep -n insertStyle ../public/index.html | tail -1 | egrep -o '[0-9]*')
+sed -e "${lineNum}r insertStyle.css" ../public/index.html > ../public/Tindex
+sed '/insertStyle/d' ../public/Tindex > ../public/index.html
+minify ../public/index.html
+
+rm ../public/Tindex
+rm full.css
+rm insertStyle.css
+rm full.min.css
