@@ -1,0 +1,31 @@
+@media screen and (min-width:1100px) {
+    html {
+        font: 18px/1.5em lato, arial, sans-serif
+    }
+}
+
+@media screen and (max-width:1100px) {
+    html {
+        font: 14px/1.5em lato, arial, sans-serif
+    }
+}
+
+@media screen and (max-width:660px) {
+    .row {
+        flex-direction: column
+    }
+    .third {
+        flex: 0 0 0
+    }
+    .fourth {
+        flex: 0 0 0
+    }
+    .anchor::before {
+        content: "";
+        display: block;
+        height: 3.8rem
+    }
+    .logo {
+        visibility: hidden
+    }
+}

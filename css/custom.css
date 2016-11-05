@@ -1,0 +1,56 @@
+body {
+    color: #212121
+}
+
+body>header {
+    width: 100%;
+    position: fixed;
+    height: 3.8rem;
+    z-index: 999
+}
+
+#logoIcon {
+    position: absolute;
+    margin: -.1rem 1rem 0;
+    width: 4rem
+}
+
+.logoIcon {
+    fill: #fff
+}
+
+footer {
+    height: 30vh
+}
+
+.logo {
+    left: 0;
+    padding: .9rem 1rem 1rem 5.5rem;
+    position: absolute;
+    border-bottom-right-radius: 1rem
+}
+
+.btn {
+    padding: .5rem 1rem;
+    border-radius: 5px
+}
+
+.nav {
+    position: absolute;
+    right: 0
+}
+
+.nav>ul>li>a {
+    padding: 1rem
+}
+
+.nav>ul>li {
+    display: inline-block;
+    margin: 1rem 0
+}
+
+.intro {
+    max-width: 80%;
+    margin: 5rem 0 3.5rem;
+    color: #fff
+}

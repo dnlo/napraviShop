@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+p > a { border-bottom: 1px solid #000 }
+
+ul > li { list-style-type: none }
+
+article ul > li {
+    list-style-type: circle;
+    margin: 1rem 1rem 1rem 2rem;
+}
+input, button {
+    font: inherit;
+}

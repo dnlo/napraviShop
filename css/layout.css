@@ -1,0 +1,97 @@
+.mar { margin: 1rem }
+
+.pad { padding: 1rem }
+
+.mar2 { margin: 2rem }
+
+.pad2 { padding: 2rem }
+
+.hMar { 
+    margin-left: 1rem;
+    margin-right: 1rem
+}
+
+.hPad { 
+    padding-left: 1rem;
+    padding-right: 1rem
+}
+
+.bMar { margin-bottom: 1rem }
+
+.tMar { margin-top: 1rem }
+
+.bPad { padding-bottom: 1rem }
+
+.tPad { padding-top: 1rem }
+
+.hMar2 { 
+    margin-right: 2rem;
+    margin-left: 2rem
+}
+
+.hPad2 { 
+    padding-left: 2rem;
+    padding-right: 2rem
+}
+
+.bMar2 { margin-bottom: 2rem }
+
+.tMar2 { margin-top: 2rem }
+
+.bPad2 { padding-bottom: 2rem }
+
+.tPad2 { padding-top: 2rem }
+
+.juCenter { justify-content: center }
+
+.juAround { justify-content: space-around }
+
+.juBetween { justify-content: space-between }
+
+.alCenter { align-items: center }
+
+.alStart { align-items: flex-start }
+
+.alEnd { align-items: flex-end }
+
+.alBase { align-items: baseline }
+
+.row { flex-direction: row }
+
+.col { flex-direction: column }
+
+.fx { display: flex }
+
+.f1 { flex: 1 }
+
+.third { flex: 0 0 33.3333% }
+
+.fourth { flex: 0 0 25% }
+
+.sCenter { align-self: center }
+
+.sEnd { align-self: flex-end }
+
+.sStart { align-self: flex-start }
+
+.sBase { align-self: baseline }
+
+.order1 { order: 1 }
+
+.order2 { order: 2 }
+
+.max50 { max-width: 50% }
+
+.max60 { max-width: 60% }
+
+.max80 { max-width: 80% }
+
+.max90 { max-width: 90% }
+
+.page { height: 100% }
+
+.bar { display: block; width: 100% }
+
+.b1 { height: 1rem }
+
+.b2 { height: 2rem }
